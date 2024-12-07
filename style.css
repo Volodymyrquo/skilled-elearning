@@ -123,6 +123,7 @@ body {
   );
   color: var(--grey);
   font-family: var(--jakarta);
+  overflow-x: hidden;
 }
 .container {
   padding-inline: 20px;
@@ -235,11 +236,11 @@ body {
 }
 @media screen and (min-width: 90rem) {
   .hero-img {
-    top: -100px;
-    right: -680px;
+    top: -160px;
+    right: -620px;
     width: 1400px;
     height: 1000px;
-    background: url(assets/image-hero-tablet.png) no-repeat;
+    background: url(assets/image-hero-desktop.png) no-repeat;
     background-size: contain;
   }
 }
