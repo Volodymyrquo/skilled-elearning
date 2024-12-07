@@ -236,8 +236,8 @@ body {
 @media screen and (min-width: 90rem) {
   .hero-img {
     top: -100px;
-    right: -280px;
-    width: 1000px;
+    right: -680px;
+    width: 1400px;
     height: 1000px;
     background: url(assets/image-hero-tablet.png) no-repeat;
     background-size: contain;
@@ -299,6 +299,22 @@ body {
 }
 .card-title {
   color: var(--blue-900);
+  @media screen (min-width: 90rem) {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+}
+.card-description {
+  @media screen and (min-width: 90rem) {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0px;
+    text-align: left;
+  }
 }
 .card-link {
   color: var(--pink-600);
