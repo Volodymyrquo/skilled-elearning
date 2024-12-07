@@ -170,6 +170,7 @@ body {
   @media screen and (min-width: 90rem) {
     position: static;
     padding-block: 112px;
+    margin-bottom: 0;
   }
 }
 .hero-content {
@@ -235,9 +236,9 @@ body {
 @media screen and (min-width: 90rem) {
   .hero-img {
     top: -100px;
-    right: -240px;
-    width: 800px;
-    height: 800px;
+    right: -280px;
+    width: 1000px;
+    height: 1000px;
     background: url(assets/image-hero-tablet.png) no-repeat;
     background-size: contain;
   }
